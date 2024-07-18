@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaryCris Import | Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/05abdbeb44.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" width="125px"></a>
+                </div>
+                <div class="barra">
+                    <input type="text" name="" id="" placeholder="Buscar...">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="contactanos.html">Contactanos</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>"Productos cotidianos, <br>calidad constante, <br>siempre contigo"</h1>
+                    <p>El éxito no siempre se trata de grandeza. Se trata de coherencia. Coherente
+                        el trabajo duro logra el éxito. La grandeza vendrá.</p>
+                    <a href="productos.html" class="btn">Explora Ahora &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    <!-- Featured Products -->
+
+    <div class="small-container">
+        <h2 class="title">Productos Destacados</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/producto-1.png"></a>
+                <h4>Bloqueador BAHIA</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>s/. 30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-3.png">
+                <h4>Banditas CUREBAND</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>s/. 16.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-4.png">
+                <h4>VapoRub</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>s/. 20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-12.png">
+                <h4>Encendedores Zeus</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>s/. 39.00</p>
+            </div>
+        </div>
+        <h2 class="title">Ultimos Productos</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/producto-2.png">
+                <h4>Protector Floresta</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-5.png">
+                <h4>Mentholatum</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 28.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-6.png">
+                <h4>Andrews</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 32.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-7.png">
+                <h4>Sal de Andrews</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 42.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/producto-8.png">
+                <h4>Cortauñas Merly</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 12.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-9.png">
+                <h4>Cortauñas Bell</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-10.png">
+                <h4>Cortauñas Corona</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/producto-11.png">
+                <h4>Cortauñas Delfin</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>S/. 15.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Disponible exclusivamente</p>
+                    <h1>TOSHIBA DOBLE A</h1>
+                    <small>Pila tipo Batearia 9V para ser usado en juguetes, circuitos eléctricos, proyectos escolares, detectores de humo y otros dispositivos eléctricos<br></small>
+                    <a href="products.html" class="btn">Comprar ahora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"Productos de calidad y entregas puntuales. Mary Crist Import es un socio confiable para mi negocio."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Elsa Pato</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"Excelente variedad y precios competitivos. Siempre encuentro lo que necesito en Mary Crist Import."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Alam Brito</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"Servicio al cliente excepcional y productos confiables. Mary Crist Import hace que mi trabajo sea más fácil."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Lola Mento</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brands -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-duracell.png">
+                </div>
+                
+                <div class="col-5">
+                    <img src="images/logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-toshiba.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-panasonic.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Contactanós</h3>
+                    <p>Somos marca peruana!</p>
+                        <li>Jr. Cuzco - Abancay</li>
+                        <li>zeus@gmail.com</li>
+                        <li>+51 984 752 900</li>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>"Nuestro propósito es hacer que la comodidad y los beneficios de los productos cotidianos sean accesibles para todos de manera confiable y sostenible."
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links útiles</h3>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Productos</li>
+                        <li>Nosotros</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siguenos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Tik Tok</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Cristian Bacilio</p>
+        </div>
+    </div>
+
+    <!-- javascript -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>

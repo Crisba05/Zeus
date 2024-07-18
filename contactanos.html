@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaryCris Import | Ecommerce</title>
+   
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/05abdbeb44.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo.png" alt="logo" width="125px"
+          /></a>
+        </div>
+        <div class="barra" style="background: #f1f1f1">
+          <input type="text" name="" id="" placeholder="Buscar..." />
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contactanos.html">Contactanos</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <div class="container-form">
+      <div class="info-form">
+        <h2>Contáctanos</h2>
+        <p>
+            En Mary Crist Import S.R.L. valoramos la comunicación con nuestros clientes. Ya sea que tengas una pregunta sobre nuestros productos, necesites información sobre pedidos al por mayor, o simplemente quieras conocer más sobre nuestra empresa, estamos listos para ayudarte.
+        </p>
+        <a href="#"><i class="fa fa-phone"></i> 984 752 900</a>
+        <a href="#"><i class="fa fa-envelope"></i> zeus@gmail.com</a>
+        <a href="#"><i class="fa fa-map-marked"></i> Lima, Perú</a>
+      </div>
+      <form action="#" autocomplete="off">
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Tu Nombre"
+          class="campo"
+        />
+        <input type="emal" name="email" placeholder="Tu Email" class="campo" />
+        <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+        <input
+          type="submit"
+          name="enviar"
+          value="Enviar Mensaje"
+          class="btn-enviar"
+        />
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Contactanós</h3>
+            <p>Somos marca peruana!</p>
+            <li>Jr. Cuzco - Abancay</li>
+            <li>zeus@gmail.com</li>
+            <li>+51 984 752 900</li>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo.png" />
+            <p>
+              "Nuestro propósito es hacer que la comodidad y los beneficios de
+              los productos cotidianos sean accesibles para todos de manera
+              confiable y sostenible."
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Links útiles</h3>
+            <ul>
+              <li>Inicio</li>
+              <li>Productos</li>
+              <li>Nosotros</li>
+              <li>Contacto</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Siguenos</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Tik Tok</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2024 - Cristian Bacilio</p>
+      </div>
+    </div>
+
+    <!-- javascript -->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
